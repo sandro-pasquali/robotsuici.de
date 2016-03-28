@@ -1,0 +1,6 @@
+{
+  "uid": "__ROBOTSUICIDE__",
+  "watch": true,
+  "script": "server.js",
+  "append": true
+}

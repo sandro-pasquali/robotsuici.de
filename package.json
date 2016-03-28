@@ -1,0 +1,19 @@
+{
+  "name": "robotsuicide",
+  "version": "1.0.0",
+  "description": "Sandro's information superhighway wwwestop",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "sandro",
+    "pasquali"
+  ],
+  "author": "Sandro Pasquali <spasquali@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ecstatic": "^1.4.0"
+  }
+}

@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'AmericanCaptain';
+    font-weight: bold;
+    src: local('AmericanCaptain'), url('../fonts/American_captain.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AmericanCaptain';
+    font-weight: bold;
+    src: local('AmericanCaptain'), url('../fonts/American_captain.ttf') format('truetype');
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background: black;
+    font-family: 'AmericanCaptain';
+}
+
+#background {
+    position: relative;
+    background: url('../robot.jpg') no-repeat 50% 50% fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    opacity: 0.75;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+#header {
+    position: relative;
+    z-index: 10;
+    padding-left: 5px;
+}
+
+#header > div {
+    cursor: pointer;
+}
+
+#redcap {
+    position: relative;
+    display: inline-block;
+    left: 0px;
+}
+
+#redcap-logo {
+    position: relative;
+}
+
+#redcap canvas {
+    position: relative;
+}
+
+#redcap-label {
+    position: relative;
+    color: white;
+    font-size: 5vw;
+}
+
+#masthead {
+    position: absolute;
+    right: 0px;
+    font-size: 22.3vw;
+}
+
+#masthead span:hover {
+    display: none;
+}
+
+#main {
+    position: relative;
+    position: relative;
+    top: 17vw;
+    font-size: 3vw;
+    z-index: 20;
+}
